@@ -6,110 +6,110 @@ import time
 import re
 from urllib.parse import urljoin
 
-class WeeklyLDScraper:
+class FinalLDScraper:
     def __init__(self):
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         }
         self.results = []
-        self.today = datetime.now()
-        self.limit_date = self.today - timedelta(days=7) # 최근 7일 설정
+        self.limit_date = datetime.now() - timedelta(days=7) # 최근 7일 
 
     def parse_date(self, date_str):
-        """다양한 날짜 형식을 시도하여 datetime 객체로 변환합니다."""
         if not date_str: return None
         date_str = re.sub(r'(By\s.*?\s\|\s)', '', date_str, flags=re.I).strip()
-        
-        formats = [
-            "%b %d, %Y", "%B %d, %Y", "%d %b %Y", "%Y-%m-%d", 
-            "%m/%d/%Y", "%d/%m/%Y", "%b %d %Y"
-        ]
-        
-        for fmt in formats:
-            try:
-                return datetime.strptime(date_str, fmt)
-            except:
-                continue
-        
-        # 숫자 패턴(2026-01-28 등) 추출
-        match = re.search(r'(\d{4}-\d{2}-\d{2})|(\d{1,2}/\d{1,2}/\d{4})', date_str)
-        if match:
-            for fmt in ["%Y-%m-%d", "%m/%d/%Y", "%d/%m/%Y"]:
-                try: return datetime.strptime(match.group(), fmt)
-                except: pass
+        for fmt in ["%b %d, %Y", "%B %d, %Y", "%Y-%m-%d"]:
+            try: return datetime.strptime(date_str, fmt)
+            except: continue
         return None
 
-    def scrape_site(self, name, url, category):
+    def scrape_degreed(self, url, category):
+        """Degreed 전용 정밀 수집기"""
         try:
-            print(f"> {name} ({category}) 수집 중...")
+            print(f"> Degreed ({category}) 정밀 수집 중...")
             res = requests.get(url, headers=self.headers, timeout=15)
             soup = BeautifulSoup(res.text, 'html.parser')
             
+            # Degreed의 기사 카드는 보통 'post-card' 또는 'blog-post' 구조를 가집니다.
+            # 진짜 제목은 <h3> 태그 내부에 위치합니다. 
+            articles = soup.select('div.post-card, article.blog-post, div.blog-post')
             count = 0
-            # 기사 링크 후보군 탐색
-            for link in soup.find_all('a', href=True):
-                title = link.get_text().strip()
-                if len(title) < 30: continue 
+            
+            for art in articles:
+                title_elem = art.select_one('h3 a, h2 a')
+                if not title_elem: continue
                 
-                parent = link.find_parent(['article', 'div', 'li', 'section'])
-                if not parent: continue
+                title = title_elem.get_text().strip()
+                link = urljoin(url, title_elem['href'])
                 
-                # 날짜 찾기
-                time_tag = parent.find('time')
-                date_text = ""
-                if time_tag:
-                    date_text = time_tag.get('datetime') or time_tag.text
-                else:
-                    date_match = re.search(r'([A-Z][a-z]{2,8}\s\d{1,2},\s\d{4})', parent.get_text())
-                    if date_match: date_text = date_match.group()
+                # Degreed의 날짜는 주로 span.date 또는 time 태그에 있습니다. 
+                date_elem = art.select_one('span.date, time, .post-date')
+                date_text = date_elem.get_text() if date_elem else ""
+                article_date = self.parse_date(date_text) or datetime.now()
 
-                article_date = self.parse_date(date_text)
-                
-                # 날짜가 없으면 일단 '오늘'로 간주하여 일주일 내에 포함시킴 (데이터 누락 방지)
-                final_date_obj = article_date if article_date else self.today
-                
-                if self.limit_date <= final_date_obj <= self.today:
+                if self.limit_date <= article_date <= datetime.now():
                     self.results.append({
-                        "date": final_date_obj.strftime("%Y-%m-%d"),
-                        "site": name,
+                        "date": article_date.strftime("%Y-%m-%d"),
+                        "site": "Degreed",
                         "title": title,
-                        "url": urljoin(url, link['href']),
-                        "summary": title[:100] + "...",
+                        "url": link,
+                        "summary": category, # 카테고리 이름을 요약으로 사용
                         "category": category,
-                        "tags": ["L&D", name]
+                        "tags": ["L&D", "Degreed"]
                     })
                     count += 1
-                    if count >= 3: break # URL이 많아졌으므로 사이트/카테고리당 3개로 조정
-            
-            print(f"  - {count}개 성공")
+            print(f"  - Degreed {count}개 완료")
         except Exception as e:
-            print(f"  ! {name} 오류: {e}")
+            print(f"  ! Degreed 오류: {e}")
+
+    def scrape_general(self, name, url, category):
+        """기타 6개 사이트 수집 (기존 로직 유지) """
+        try:
+            print(f"> {name} 수집 중...")
+            res = requests.get(url, headers=self.headers, timeout=15)
+            soup = BeautifulSoup(res.text, 'html.parser')
+            count = 0
+            for link in soup.find_all('a', href=True):
+                title = link.get_text().strip()
+                if len(title) > 35 and any(t in str(link.parent) for t in ['h2','h3','h4']):
+                    self.results.append({
+                        "date": datetime.now().strftime("%Y-%m-%d"),
+                        "site": name, "title": title, "url": urljoin(url, link['href']),
+                        "summary": title[:50], "category": category, "tags": [name]
+                    })
+                    count += 1
+                    if count >= 3: break
+            print(f"  - {name} {count}개 완료")
+        except: pass
 
     def run(self):
-        # 교체된 Degreed URL 5개 + 기존 6개 사이트
-        targets = [
-            ("Degreed", "https://degreed.com/experience/blog/category/ai-innovation-in-learning/", "AI & 혁신"),
-            ("Degreed", "https://degreed.com/experience/blog/category/corporate-training/", "기업 교육"),
-            ("Degreed", "https://eu.degreed.com/experience/blog/category/learning-development-strategy/", "L&D 전략"),
-            ("Degreed", "https://degreed.com/experience/blog/category/skills-talent-mobility/", "스킬 & 탤런트"),
-            ("Degreed", "https://degreed.com/experience/blog/category/workforce-business-impact/", "비즈니스 영향"),
+        # 요청하신 Degreed 카테고리 5개 
+        degreed_urls = [
+            ("AI & 혁신", "https://degreed.com/experience/blog/category/ai-innovation-in-learning/"),
+            ("기업 교육", "https://degreed.com/experience/blog/category/corporate-training/"),
+            ("L&D 전략", "https://eu.degreed.com/experience/blog/category/learning-development-strategy/"),
+            ("스킬 & 탤런트", "https://degreed.com/experience/blog/category/skills-talent-mobility/"),
+            ("비즈니스 영향", "https://degreed.com/experience/blog/category/workforce-business-impact/")
+        ]
+        for cat, url in degreed_urls:
+            self.scrape_degreed(url, cat)
+            time.sleep(1)
+
+        # 나머지 사이트들 
+        others = [
             ("Josh Bersin", "https://joshbersin.com/", "TD"),
             ("SHRM", "https://www.shrm.org/topics-tools/news", "기타"),
             ("Unleash", "https://www.unleash.ai/learning-and-development/", "L&D 전략 및 LX"),
             ("DDI", "https://www.ddi.com/blogs", "리더십"),
-            ("Wharton Knowledge", "https://knowledge.wharton.upenn.edu/category/leadership/", "OD"),
+            ("Wharton", "https://knowledge.wharton.upenn.edu/category/leadership/", "OD"),
             ("Korn Ferry", "https://www.kornferry.com/insights", "TD")
         ]
-        
-        for name, url, cat in targets:
-            self.scrape_site(name, url, cat)
+        for name, url, cat in others:
+            self.scrape_general(name, url, cat)
             time.sleep(1)
 
         with open('articles.json', 'w', encoding='utf-8') as f:
             json.dump(self.results, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    scraper = WeeklyLDScraper()
+    scraper = FinalLDScraper()
     scraper.run()
-    print("\n[완료] 최근 7일간의 아티클 수집을 완료했습니다.")
-    time.sleep(2)

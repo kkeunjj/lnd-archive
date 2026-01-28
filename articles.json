@@ -1,302 +1,68 @@
 [
     {
         "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Português (Portuguese (Brazil))",
-        "url": "https://degreed.com/experience/pt-br/blog/category/ai-innovation-in-learning/",
-        "summary": "Português (Portuguese (Brazil))...",
-        "category": "AI & 혁신",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective skills-first learning.",
-        "url": "https://degreed.com/experience/why/",
-        "summary": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective sk...",
-        "category": "AI & 혁신",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention.",
-        "url": "https://degreed.com/experience/our-platform/",
-        "summary": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention...",
-        "category": "AI & 혁신",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Português (Portuguese (Brazil))",
-        "url": "https://degreed.com/experience/pt-br/blog/category/corporate-training/",
-        "summary": "Português (Portuguese (Brazil))...",
-        "category": "기업 교육",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective skills-first learning.",
-        "url": "https://degreed.com/experience/why/",
-        "summary": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective sk...",
-        "category": "기업 교육",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention.",
-        "url": "https://degreed.com/experience/our-platform/",
-        "summary": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention...",
-        "category": "기업 교육",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Português (Portuguese (Brazil))",
-        "url": "https://degreed.com/experience/pt-br/blog/category/learning-development-strategy/",
-        "summary": "Português (Portuguese (Brazil))...",
-        "category": "L&D 전략",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective skills-first learning.",
-        "url": "https://eu.degreed.com/experience/why/",
-        "summary": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective sk...",
-        "category": "L&D 전략",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention.",
-        "url": "https://eu.degreed.com/experience/our-platform/",
-        "summary": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention...",
-        "category": "L&D 전략",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Português (Portuguese (Brazil))",
-        "url": "https://eu.degreed.com/experience/pt-br/blog/category/skills-talent-mobility/",
-        "summary": "Português (Portuguese (Brazil))...",
-        "category": "스킬 & 탤런트",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective skills-first learning.",
-        "url": "https://degreed.com/experience/why/",
-        "summary": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective sk...",
-        "category": "스킬 & 탤런트",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention.",
-        "url": "https://degreed.com/experience/our-platform/",
-        "summary": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention...",
-        "category": "스킬 & 탤런트",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Português (Portuguese (Brazil))",
-        "url": "https://degreed.com/experience/pt-br/blog/category/workforce-business-impact/",
-        "summary": "Português (Portuguese (Brazil))...",
-        "category": "비즈니스 영향",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective skills-first learning.",
-        "url": "https://degreed.com/experience/why/",
-        "summary": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective sk...",
-        "category": "비즈니스 영향",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "Degreed",
-        "title": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention.",
-        "url": "https://degreed.com/experience/our-platform/",
-        "summary": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention...",
-        "category": "비즈니스 영향",
-        "tags": [
-            "L&D",
-            "Degreed"
-        ]
-    },
-    {
-        "date": "2026-01-28",
         "site": "Josh Bersin",
-        "title": "Josh Bersin’s 2026 Imperatives: Unlock the roadmap for enterprise AI, exclusively through Galileo",
-        "url": "https://getgalileo.ai/pricing",
-        "summary": "Josh Bersin’s 2026 Imperatives: Unlock the roadmap for enterprise AI, exclusively through Galileo...",
+        "title": "The Great Reinvention of Human Resources Has Begun",
+        "url": "https://joshbersin.com/2026/01/the-great-reinvention-of-human-resources-has-begun/",
+        "summary": "The Great Reinvention of Human Resources Has Begun",
         "category": "TD",
         "tags": [
-            "L&D",
             "Josh Bersin"
         ]
     },
     {
         "date": "2026-01-28",
         "site": "Josh Bersin",
-        "title": "Join us at Irresistible 2026 to unlock exclusive research and strategy sessions.",
-        "url": "https://www.uscmarshallexeced.org/event/Irresistible2026/home",
-        "summary": "Join us at Irresistible 2026 to unlock exclusive research and strategy sessions....",
+        "title": "UKG Stakes Out Leadership Position In $6.5 Trillion Market For Frontline Work",
+        "url": "https://joshbersin.com/2026/01/ukg-stakes-out-leadership-position-in-6-5-trillion-market-for-frontline-work/",
+        "summary": "UKG Stakes Out Leadership Position In $6.5 Trillio",
         "category": "TD",
         "tags": [
-            "L&D",
             "Josh Bersin"
         ]
     },
     {
         "date": "2026-01-28",
         "site": "Josh Bersin",
-        "title": "Maximizing the Impact of AI on HR Series",
-        "url": "https://joshbersin.com/maximizing-the-impact-of-ai-on-hr/",
-        "summary": "Maximizing the Impact of AI on HR Series...",
+        "title": "Yes, AI Is Really Impacting The Job Market. Here’s What To Do.",
+        "url": "https://joshbersin.com/2025/12/yes-ai-is-really-impacting-the-job-market-heres-what-to-do/",
+        "summary": "Yes, AI Is Really Impacting The Job Market. Here’s",
         "category": "TD",
         "tags": [
-            "L&D",
             "Josh Bersin"
         ]
     },
     {
         "date": "2026-01-28",
-        "site": "SHRM",
-        "title": "SHRM26 Annual Conference & Expo",
-        "url": "https://annual.shrm.org",
-        "summary": "SHRM26 Annual Conference & Expo...",
-        "category": "기타",
-        "tags": [
-            "L&D",
-            "SHRM"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "SHRM",
-        "title": "SHRM26 Annual Conference & Expo",
-        "url": "https://annual.shrm.org",
-        "summary": "SHRM26 Annual Conference & Expo...",
-        "category": "기타",
-        "tags": [
-            "L&D",
-            "SHRM"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "SHRM",
-        "title": "Quick Hits in AI News: Quality, Rework, Unclear Expectations",
-        "url": "https://www.shrm.org/topics-tools/flagships/ai-hi/quick-hits-jan-26",
-        "summary": "Quick Hits in AI News: Quality, Rework, Unclear Expectations...",
-        "category": "기타",
-        "tags": [
-            "L&D",
-            "SHRM"
-        ]
-    },
-    {
-        "date": "2026-01-28",
         "site": "Unleash",
-        "title": "UNLEASH America 202617-19 March 2026",
-        "url": "https://www.unleash.ai/unleashamerica/",
-        "summary": "UNLEASH America 202617-19 March 2026...",
+        "title": "Oliver Wyman Forum 300,000 Voices: Three key takeaways for HR leaders\nWhat can research conducted over the past five years among 300,000 people worldwide tell us about the future of work? UNLEASH digs into the Oliver Wyman Forum 300,000 Voices results to uncover three key things HR leaders need to know.",
+        "url": "https://www.unleash.ai/future-of-work/oliver-wyman-forum-300000-voices-three-key-takeaways-for-hr-leaders/",
+        "summary": "Oliver Wyman Forum 300,000 Voices: Three key takea",
         "category": "L&D 전략 및 LX",
         "tags": [
-            "L&D",
             "Unleash"
         ]
     },
     {
         "date": "2026-01-28",
         "site": "Unleash",
-        "title": "UNLEASH World 202620-22 October 2026",
-        "url": "https://www.unleash.ai/unleashworld",
-        "summary": "UNLEASH World 202620-22 October 2026...",
+        "title": "Coursera and Udemy to merge in $2.5 billion deal\nThe online learning and development space is undergoing a seismic change as two technology powerhouses, Coursera and Udemy, announce they will combine into a single entity.",
+        "url": "https://www.unleash.ai/learning-and-development/coursera-and-udemy-to-merge-in-2-5-billion-deal/",
+        "summary": "Coursera and Udemy to merge in $2.5 billion deal\nT",
         "category": "L&D 전략 및 LX",
         "tags": [
-            "L&D",
             "Unleash"
         ]
     },
     {
         "date": "2026-01-28",
         "site": "Unleash",
-        "title": "Harnessing the voice of the employee",
-        "url": "https://www.unleash.ai/events/employee-experience-and-engagement/power-to-the-people-harnessing-the-voice-of-the-employee/",
-        "summary": "Harnessing the voice of the employee...",
+        "title": "EY: ‘HR leaders must focus on closing talent gaps between human and AI readiness’\nUNLEASH digs into the latest Work Reimagined Survey from EY to find out how HR leaders can nurture AI skills and talent retention, and why focusing on the human dimension is an imperative.",
+        "url": "https://www.unleash.ai/artificial-intelligence/ey-hr-leaders-must-focus-on-closing-talent-gaps-between-human-and-ai-readiness/",
+        "summary": "EY: ‘HR leaders must focus on closing talent gaps ",
         "category": "L&D 전략 및 LX",
         "tags": [
-            "L&D",
             "Unleash"
-        ]
-    },
-    {
-        "date": "2026-01-28",
-        "site": "DDI",
-        "title": "Building a Leadership Pipeline",
-        "url": "https://www.ddi.com/solutions/succession-management",
-        "summary": "Building a Leadership Pipeline...",
-        "category": "리더십",
-        "tags": [
-            "L&D",
-            "DDI"
         ]
     },
     {
@@ -304,10 +70,9 @@
         "site": "DDI",
         "title": "The hot leadership topics for 2026 you need to know. Explore how AI is exposing gaps in leadership systems and capabilities—and what HR must tackle to close them.\n\n\nBLOG\n\n7 Hot Leadership Topics for 2026 (and Why Old Approaches Won’t Hold)\n\n\n8 min",
         "url": "https://www.ddi.com/blog/hot-leadership-topics-2026",
-        "summary": "The hot leadership topics for 2026 you need to know. Explore how AI is exposing gaps in leadership s...",
+        "summary": "The hot leadership topics for 2026 you need to kno",
         "category": "리더십",
         "tags": [
-            "L&D",
             "DDI"
         ]
     },
@@ -316,70 +81,86 @@
         "site": "DDI",
         "title": "What do great leaders have in common? They share leadership qualities that inspire their teams, fuel performance, and move their organizations forward.\n\n\nBLOG\n\n9 Leadership Qualities That Inspire High-Performing Teams\n\n\n8 min",
         "url": "https://www.ddi.com/blog/leadership-qualities",
-        "summary": "What do great leaders have in common? They share leadership qualities that inspire their teams, fuel...",
+        "summary": "What do great leaders have in common? They share l",
         "category": "리더십",
         "tags": [
-            "L&D",
             "DDI"
         ]
     },
     {
         "date": "2026-01-28",
-        "site": "Wharton Knowledge",
-        "title": "the University of Pennsylvania",
-        "url": "https://www.upenn.edu/",
-        "summary": "the University of Pennsylvania...",
-        "category": "OD",
+        "site": "DDI",
+        "title": "Most companies are focused on AI tools. But the real advantage lies somewhere else entirely. Discover the leadership skills that drive (or derail) AI success.\n\n\nBLOG\n\nAI and Leadership: The 5 Capabilities Every Leader Needs Now\n\n\n10 min",
+        "url": "https://www.ddi.com/blog/ai-and-leadership",
+        "summary": "Most companies are focused on AI tools. But the re",
+        "category": "리더십",
         "tags": [
-            "L&D",
-            "Wharton Knowledge"
+            "DDI"
         ]
     },
     {
         "date": "2026-01-28",
-        "site": "Wharton Knowledge",
-        "title": "Report Accessibility Issues and Get Help",
-        "url": "https://accessibility.web-resources.upenn.edu/get-help",
-        "summary": "Report Accessibility Issues and Get Help...",
+        "site": "Wharton",
+        "title": "Why AI Disclosure Matters at Every Level",
+        "url": "https://knowledge.wharton.upenn.edu/article/why-ai-disclosure-matters-at-every-level/",
+        "summary": "Why AI Disclosure Matters at Every Level",
         "category": "OD",
         "tags": [
-            "L&D",
-            "Wharton Knowledge"
+            "Wharton"
+        ]
+    },
+    {
+        "date": "2026-01-28",
+        "site": "Wharton",
+        "title": "How Can Companies Incentivize AI Adoption?",
+        "url": "https://knowledge.wharton.upenn.edu/article/how-can-companies-incentivize-ai-adoption/",
+        "summary": "How Can Companies Incentivize AI Adoption?",
+        "category": "OD",
+        "tags": [
+            "Wharton"
+        ]
+    },
+    {
+        "date": "2026-01-28",
+        "site": "Wharton",
+        "title": "The State of Leadership in Uncertain Times | Mike Useem",
+        "url": "https://knowledge.wharton.upenn.edu/podcast/ripple-effect/the-state-of-leadership-in-uncertain-times-mike-useem/",
+        "summary": "The State of Leadership in Uncertain Times | Mike ",
+        "category": "OD",
+        "tags": [
+            "Wharton"
         ]
     },
     {
         "date": "2026-01-28",
         "site": "Korn Ferry",
-        "title": "Leadership & Professional Development",
-        "url": "https://www.kornferry.com/capabilities/leadership-professional-development",
-        "summary": "Leadership & Professional Development...",
+        "title": "This Week in Leadership\n\n\nAI Cheating: Can It Even Be Defined?\n\n\nWhether it’s applying for a job or working with clients, how much workers should rely on—and disclose—their use of AI is becoming murky. “It’s a real challenge.”\n\n\n\n\n                  \n                \n                    Read more",
+        "url": "https://www.kornferry.com/insights/this-week-in-leadership/ai-cheating-can-it-even-be-defined",
+        "summary": "This Week in Leadership\n\n\nAI Cheating: Can It Even",
         "category": "TD",
         "tags": [
-            "L&D",
             "Korn Ferry"
         ]
     },
     {
         "date": "2026-01-28",
         "site": "Korn Ferry",
-        "title": "Career Transition & Outplacement",
-        "url": "https://www.kornferry.com/capabilities/business-transformation/career-outplacement-services",
-        "summary": "Career Transition & Outplacement...",
+        "title": "This Week in Leadership\n\n\nA New Threat for Cybersecurity Leaders? \n\n\n More companies are cutting staff and turning to AI to defend against cyberattacks. But will the lack of humans backfire here?\n\n\n\n\n                  \n                \n                    Read more",
+        "url": "https://www.kornferry.com/insights/this-week-in-leadership/a-new-threat-for-cybersecurity-leaders",
+        "summary": "This Week in Leadership\n\n\nA New Threat for Cyberse",
         "category": "TD",
         "tags": [
-            "L&D",
             "Korn Ferry"
         ]
     },
     {
         "date": "2026-01-28",
         "site": "Korn Ferry",
-        "title": "LA28 Olympic & Paralympic Games",
-        "url": "https://www.kornferry.com/about-us/partnerships/la28-games",
-        "summary": "LA28 Olympic & Paralympic Games...",
+        "title": "This Week in Leadership\n\n\nWhen You Get a 2 Rating \n\n\nAs performance-review season begins, a new study suggests people want narratives, not numbers. But do managers have the time? \n\n\n\n\n                  \n                \n                    Read more",
+        "url": "https://www.kornferry.com/insights/this-week-in-leadership/when-you-get-a-2-rating",
+        "summary": "This Week in Leadership\n\n\nWhen You Get a 2 Rating ",
         "category": "TD",
         "tags": [
-            "L&D",
             "Korn Ferry"
         ]
     }
