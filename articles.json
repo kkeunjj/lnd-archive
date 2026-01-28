@@ -1,117 +1,218 @@
 [
     {
+        "date": "2026-01-28",
+        "site": "Degreed",
         "title": "Português (Portuguese (Brazil))",
-        "link": "https://degreed.com/experience/pt-br/blog/",
-        "source": "Degreed"
+        "url": "https://degreed.com/experience/pt-br/blog/",
+        "summary": "Português (Portuguese (Brazil))...",
+        "category": "L&D 전략 및 LX",
+        "tags": [
+            "L&D",
+            "Degreed"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Degreed",
         "title": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective skills-first learning.",
-        "link": "https://degreed.com/experience/why/",
-        "source": "Degreed"
+        "url": "https://degreed.com/experience/why/",
+        "summary": "Why DegreedPartner with an end-user-obsessed innovator who knows exactly how to deliver effective sk...",
+        "category": "L&D 전략 및 LX",
+        "tags": [
+            "L&D",
+            "Degreed"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Degreed",
         "title": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention.",
-        "link": "https://degreed.com/experience/our-platform/",
-        "source": "Degreed"
+        "url": "https://degreed.com/experience/our-platform/",
+        "summary": "Our PlatformUnlock lasting skill-building solutions for every employee, from onboarding to retention...",
+        "category": "L&D 전략 및 LX",
+        "tags": [
+            "L&D",
+            "Degreed"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Degreed",
         "title": "PartnershipsDegreed partners with the world’s most forward-thinking and trusted vendors to create true skills-first learning.",
-        "link": "https://degreed.com/experience/partnership/",
-        "source": "Degreed"
+        "url": "https://degreed.com/experience/partnership/",
+        "summary": "PartnershipsDegreed partners with the world’s most forward-thinking and trusted vendors to create tr...",
+        "category": "L&D 전략 및 LX",
+        "tags": [
+            "L&D",
+            "Degreed"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Degreed",
         "title": "Success Stories Hear from thriving companies and individuals who embraced a new kind of learning and saw the results.",
-        "link": "https://degreed.com/experience/success-stories/",
-        "source": "Degreed"
+        "url": "https://degreed.com/experience/success-stories/",
+        "summary": "Success Stories Hear from thriving companies and individuals who embraced a new kind of learning and...",
+        "category": "L&D 전략 및 LX",
+        "tags": [
+            "L&D",
+            "Degreed"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Josh Bersin",
         "title": "Josh Bersin’s 2026 Imperatives: Unlock the roadmap for enterprise AI, exclusively through Galileo",
-        "link": "https://getgalileo.ai/pricing",
-        "source": "JoshBersin"
+        "url": "https://getgalileo.ai/pricing",
+        "summary": "Josh Bersin’s 2026 Imperatives: Unlock the roadmap for enterprise AI, exclusively through Galileo...",
+        "category": "TD",
+        "tags": [
+            "L&D",
+            "Josh Bersin"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Josh Bersin",
         "title": "Join us at Irresistible 2026 to unlock exclusive research and strategy sessions.",
-        "link": "https://www.uscmarshallexeced.org/event/Irresistible2026/home",
-        "source": "JoshBersin"
+        "url": "https://www.uscmarshallexeced.org/event/Irresistible2026/home",
+        "summary": "Join us at Irresistible 2026 to unlock exclusive research and strategy sessions....",
+        "category": "TD",
+        "tags": [
+            "L&D",
+            "Josh Bersin"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Josh Bersin",
         "title": "Maximizing the Impact of AI on HR Series",
-        "link": "https://joshbersin.com/maximizing-the-impact-of-ai-on-hr/",
-        "source": "JoshBersin"
+        "url": "https://joshbersin.com/maximizing-the-impact-of-ai-on-hr/",
+        "summary": "Maximizing the Impact of AI on HR Series...",
+        "category": "TD",
+        "tags": [
+            "L&D",
+            "Josh Bersin"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Josh Bersin",
         "title": "Maximizing the Impact of AI in the Age of the Superworker",
-        "link": "https://joshbersin.com/maximizing-the-impact-of-ai-in-the-age-of-the-superworker/",
-        "source": "JoshBersin"
+        "url": "https://joshbersin.com/maximizing-the-impact-of-ai-in-the-age-of-the-superworker/",
+        "summary": "Maximizing the Impact of AI in the Age of the Superworker...",
+        "category": "TD",
+        "tags": [
+            "L&D",
+            "Josh Bersin"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Josh Bersin",
         "title": "Maximizing the Impact of AI on Core HR, Time Management, and Payroll",
-        "link": "https://joshbersin.com/maximizing-the-impact-of-ai-on-core-hr/",
-        "source": "JoshBersin"
+        "url": "https://joshbersin.com/maximizing-the-impact-of-ai-on-core-hr/",
+        "summary": "Maximizing the Impact of AI on Core HR, Time Management, and Payroll...",
+        "category": "TD",
+        "tags": [
+            "L&D",
+            "Josh Bersin"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "SHRM",
         "title": "SHRM26 Annual Conference & Expo",
-        "link": "https://annual.shrm.org",
-        "source": "SHRM"
+        "url": "https://annual.shrm.org",
+        "summary": "SHRM26 Annual Conference & Expo...",
+        "category": "기타",
+        "tags": [
+            "L&D",
+            "SHRM"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "SHRM",
         "title": "SHRM26 Annual Conference & Expo",
-        "link": "https://annual.shrm.org",
-        "source": "SHRM"
+        "url": "https://annual.shrm.org",
+        "summary": "SHRM26 Annual Conference & Expo...",
+        "category": "기타",
+        "tags": [
+            "L&D",
+            "SHRM"
+        ]
     },
     {
-        "title": "UNLEASH America Highlights",
-        "link": "https://www.unleash.ai/unleashamerica/content-hub/",
-        "source": "Unleash"
-    },
-    {
-        "title": "UNLEASH America 202617-19 March 2026",
-        "link": "https://www.unleash.ai/unleashamerica/",
-        "source": "Unleash"
-    },
-    {
-        "title": "UNLEASH World 202620-22 October 2026",
-        "link": "https://www.unleash.ai/unleashworld",
-        "source": "Unleash"
-    },
-    {
-        "title": "Embrace the future of work",
-        "link": "https://www.unleash.ai/events/hr-technology/embrace-the-future-of-work-with-a-transformational-employee-experience/",
-        "source": "Unleash"
-    },
-    {
-        "title": "Harnessing the voice of the employee",
-        "link": "https://www.unleash.ai/events/employee-experience-and-engagement/power-to-the-people-harnessing-the-voice-of-the-employee/",
-        "source": "Unleash"
-    },
-    {
+        "date": "2026-01-28",
+        "site": "DDI",
         "title": "Group Machine Readable Files",
-        "link": "https://mrfdata.hmhs.com/",
-        "source": "DDI"
+        "url": "https://mrfdata.hmhs.com/",
+        "summary": "Group Machine Readable Files...",
+        "category": "리더십",
+        "tags": [
+            "L&D",
+            "DDI"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Wharton Knowledge",
         "title": "Nano Tools for Leaders Series",
-        "link": "https://knowledge.wharton.upenn.edu/nano-tools-for-leaders-series/",
-        "source": "Wharton"
+        "url": "https://knowledge.wharton.upenn.edu/nano-tools-for-leaders-series/",
+        "summary": "Nano Tools for Leaders Series...",
+        "category": "OD",
+        "tags": [
+            "L&D",
+            "Wharton Knowledge"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Wharton Knowledge",
         "title": "The Future of Financial TechnologyDecember 2, 2024",
-        "link": "https://knowledge.wharton.upenn.edu/article/the-future-of-financial-technology/",
-        "source": "Wharton"
+        "url": "https://knowledge.wharton.upenn.edu/article/the-future-of-financial-technology/",
+        "summary": "The Future of Financial TechnologyDecember 2, 2024...",
+        "category": "OD",
+        "tags": [
+            "L&D",
+            "Wharton Knowledge"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Wharton Knowledge",
         "title": "The Regulatory Challenges of AI in FinanceNovember 25, 2024",
-        "link": "https://knowledge.wharton.upenn.edu/article/the-regulatory-challenges-of-ai-in-finance/",
-        "source": "Wharton"
+        "url": "https://knowledge.wharton.upenn.edu/article/the-regulatory-challenges-of-ai-in-finance/",
+        "summary": "The Regulatory Challenges of AI in FinanceNovember 25, 2024...",
+        "category": "OD",
+        "tags": [
+            "L&D",
+            "Wharton Knowledge"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Wharton Knowledge",
         "title": "New Phenomena in Behavioral and Social InvestingNovember 18, 2024",
-        "link": "https://knowledge.wharton.upenn.edu/article/new-phenomena-in-behavioral-and-social-investing/",
-        "source": "Wharton"
+        "url": "https://knowledge.wharton.upenn.edu/article/new-phenomena-in-behavioral-and-social-investing/",
+        "summary": "New Phenomena in Behavioral and Social InvestingNovember 18, 2024...",
+        "category": "OD",
+        "tags": [
+            "L&D",
+            "Wharton Knowledge"
+        ]
     },
     {
+        "date": "2026-01-28",
+        "site": "Wharton Knowledge",
         "title": "The Future of BankingNovember 11, 2024",
-        "link": "https://knowledge.wharton.upenn.edu/article/the-future-of-banking/",
-        "source": "Wharton"
+        "url": "https://knowledge.wharton.upenn.edu/article/the-future-of-banking/",
+        "summary": "The Future of BankingNovember 11, 2024...",
+        "category": "OD",
+        "tags": [
+            "L&D",
+            "Wharton Knowledge"
+        ]
     }
 ]
